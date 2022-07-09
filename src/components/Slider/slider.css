@@ -1,0 +1,233 @@
+/* img {
+  width: 100vw;
+  height: 100vh;
+} */
+
+.sliderInner {
+  height: 100vh;
+}
+.slides .slick-next {
+  right: 2%;
+}
+.slides .slick-prev {
+  left: 2%;
+}
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+.slides {
+  position: relative;
+}
+
+.slides:focus {
+  border: none;
+  outline: none;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+.slick-slide {
+  outline: none;
+}
+
+.slider-loading{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(221, 221, 221);
+}
+
+
+.image-div {
+  width: 100%;
+      background-image: url("https://www.gratistodo.com/wp-content/uploads/2017/02/Casas-Modernas-2.jpg");
+
+  height: 100vh;
+  background-repeat: no-repeat;
+  z-index: 4;
+  padding: 100px;
+  background-size: cover;
+  display: flex;
+  background-position: center;
+}
+
+.image-link{
+  text-decoration: none;
+  color: rgb(63, 63, 63);
+}
+
+.image-link:visited{
+  color: rgb(63, 63, 63);
+}
+
+.image-link:active {
+  color: rgb(63, 63, 63);
+
+}
+
+.image-container-filler {
+  width: 60%;
+  height: 100px;
+}
+.image-container {
+  padding: 40px 40px 40px 40px;
+  box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  margin: 14% 0 0 0;
+  width: 450px;
+  align-self: flex-start;
+}
+.image-features {
+  display: flex;
+  margin: 5px 0;
+}
+
+.image-title {
+  margin-bottom: 4px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.image-ubication {
+  margin-bottom: 14px;
+  font-size: 13px;
+  font-weight: 400;
+  color: gray;
+}
+
+.image-feat-icons-div {
+  margin: 0 10px;
+}
+.image-feat-title {
+  color: rgb(49, 48, 48);
+  padding: 3px 0;
+}
+
+.image-text-span {
+  font-weight: 700;
+}
+
+.image-feat-p {
+  white-space: nowrap;
+}
+
+.m2:after {
+  position: absolute;
+  padding: 0px 0 0 1px;
+  content: " m2";
+  color: rgb(82, 82, 82);
+}
+
+.image-icons {
+  color: #a51a1a;
+  vertical-align: -8px;
+  margin-right: 3px;
+  font-size: 26px;
+}
+
+.image-price-title {
+  text-transform: capitalize;
+  color: rgb(37, 37, 37);
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.image-price {
+  font-weight: 400;
+  font-size: 25px;
+  color: #a51a1a;
+}
+
+.ps-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(44, 44, 44);
+}
+
+.ps-img {
+  object-fit: cover;
+  height: 500px;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+@media (max-width: 768px) {
+  .image-container-filler {
+    display: none;
+  }
+  .image-features {
+    display: none;
+  }
+  .image-ubication {
+    display: none;
+  }
+  .image-container {
+    margin: 0;
+  }
+  .image-div {
+    justify-content: center;
+  }
+  .image-price-title {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .image-price {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 320px) {
+  .image-container-filler {
+    display: none;
+  }
+
+  .image-features {
+    display: none;
+  }
+
+  .image-ubication {
+    display: none;
+  }
+
+  .image-container {
+    margin: 0;
+  }
+
+  .image-div {
+    justify-content: center;
+  }
+
+  .image-price-title {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .image-price {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1139px) {
+  .image-container {
+    width: 500px;
+    margin: 0;
+  }
+  .image-div {
+    padding-top: 0;
+    padding-right: 80px;
+  }
+}

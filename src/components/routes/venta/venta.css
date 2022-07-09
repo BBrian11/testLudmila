@@ -1,0 +1,10 @@
+.venta-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width: 1100px) {
+  .venta-list{
+    width: 320px;
+  }
+} 

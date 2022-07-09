@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:fucus{
+  outline: none;
+}
+
+body {
+  
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+::selection {
+  color: white;
+  background: #a51a1a;
+}
+@media only screen and (max-width: 479px) {
+  body {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+
+ body {
+   padding: 0;
+ }
+}
+@media only screen and (max-width: 360px) {
+
+
+  body {
+    padding: 0;
+  }
+}
